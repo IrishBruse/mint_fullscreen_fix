@@ -2,6 +2,8 @@
 
 This is a workaround to a linux mint(muffin) bug here [#656](https://github.com/linuxmint/muffin/issues/656)
 
+How it works is by intercepting the fullscreen event and forcing the fullscreen to the window your cursor is on
+
 ## Setup Guide
 
 Clone the repo
