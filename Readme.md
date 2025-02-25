@@ -6,6 +6,12 @@ How it works is by intercepting the fullscreen event and forcing the fullscreen 
 
 ## Setup Guide
 
+Dependancies
+
+```
+sudo apt install libx11-dev libxrandr-dev
+```
+
 Clone the repo
 
 `git clone https://github.com/IrishBruse/mint_fullscreen_fix.git`
