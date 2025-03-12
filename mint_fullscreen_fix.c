@@ -145,7 +145,7 @@ int main() {
             Window active_window = get_active_window(display);
             if (active_window != last_window) {
                 last_window = active_window;
-                last_fullscreen = 0; // Reset state for the new window
+                last_fullscreen = is_fullscreen(display, active_window); // Initialize with current fullscreen state
             }
         }
 
